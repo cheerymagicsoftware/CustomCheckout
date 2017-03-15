@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Checkout\Controller\Cart">
+		<plugin disabled="false" name="CheeryMagic_CustomCheckout_Plugin_Magento_Checkout_Controller_Cart" sortOrder="10" type="CheeryMagic\CustomCheckout\Plugin\Magento\Checkout\Controller\Cart"/>
+	</type>
+	<type name="Magento\Checkout\Controller\Action">
+		<plugin disabled="false" name="CheeryMagic_CustomCheckout_Plugin_Magento_Checkout_Controller_Action" sortOrder="10" type="CheeryMagic\CustomCheckout\Plugin\Magento\Checkout\Controller\Action"/>
+	</type>
+</config>

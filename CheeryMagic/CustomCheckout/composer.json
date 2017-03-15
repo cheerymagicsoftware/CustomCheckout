@@ -1,0 +1,21 @@
+{
+    "name": "cheerymagic/module-customcheckout",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "CustomCheckout",
+            "email": "cheerymagicsoftware@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CheeryMagic\\CustomCheckout\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
